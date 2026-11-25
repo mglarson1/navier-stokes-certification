@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Draft citation metadata. At publication, cite the paper and the version-specific evidence DOI listed in the README."
+type: software
+title: "Certified cylinder drag: verification companion"
+version: "1.0.0-draft"
+authors:
+  - family-names: "Burman"
+    given-names: "Erik"
+    affiliation: "Department of Mathematics, University College London"
+  - family-names: "Larson"
+    given-names: "Mats G."
+    affiliation: "Department of Mathematics and Mathematical Statistics, Umeå University"
+keywords:
+  - "Navier–Stokes equations"
+  - "drag certification"
+  - "a posteriori error estimation"
+  - "goal functional"
+  - "validated numerics"
+abstract: "Verification entry point and figure code for the frozen T = 2 drag certificate and earlier certificates. The full evidence is a separate companion data deposit under preparation."
+references:
+  - type: unpublished
+    title: "Certified drag for a three-dimensional Navier–Stokes wake and the horizon of energy-based certification"
+    authors:
+      - family-names: "Burman"
+        given-names: "Erik"
+      - family-names: "Larson"
+        given-names: "Mats G."
+    year: 2026

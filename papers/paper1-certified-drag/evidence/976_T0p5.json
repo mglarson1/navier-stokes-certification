@@ -1,0 +1,209 @@
+{
+  "status": "validated_drag_interval_target_met",
+  "short_window_target_met": true,
+  "full_drag_certificate": true,
+  "candidate_sha256": "05768d3104cfead7f63a02fcd2ff922ae9689cba4a2df04f6a68010f64396a7e",
+  "polynomial_sha256": "adaf80acf96ccdeab6c4ef206d9de26c2302e8b7f8621596741eb66850fc9f8b",
+  "T": "1/2",
+  "beta": "1",
+  "gamma": "371/64",
+  "rho_upper_exact": "10750956402385382163117883336533/28147497671065600000000000000000000",
+  "A_gamma_upper_exact": "10416551917450115069/36893488147419103232",
+  "K_upper_exact": "2937094232266931/35184372088832",
+  "eta_lower_exact": "-5832722837191463943/38685626227668133590597632",
+  "eta_upper_exact": "-11452633669109139277/77371252455336267181195264",
+  "printed_eta_exact": "-149397086191/1000000000000000000",
+  "eta_evaluation_error_upper_exact": "405906687417424808339055901371/295147905179352825856000000000000000000",
+  "reference_drag_exact": "11277728625912087/100000000000000000",
+  "reference_evaluation_error_upper_exact": "1/8000000000",
+  "linear_error_upper_exact": "16462220642570436383751195716193987831747019722819219/519229685853482762853049632922009600000000000000000000000",
+  "nonlinear_error_upper_exact": "339478349347414922968252368292976529893420582290638331310440898377748752016859/27875931498163278926919647840810451882475520000000000000000000000000000000000000000",
+  "corrected_centre_exact": "112777136862034679/1000000000000000000",
+  "corrected_radius_upper_exact": "1223328911633770467793678383644351787581778248381720007196213698377748752016859/27875931498163278926919647840810451882475520000000000000000000000000000000000000000",
+  "uncorrected_radius_upper_exact": "1227493494574434751411817569835076689294598394917832462876213698377748752016859/27875931498163278926919647840810451882475520000000000000000000000000000000000000000",
+  "readable_lower": "0.112733252089548623",
+  "readable_upper": "0.112821021634520735",
+  "readable_radius_upper": "0.000043884773",
+  "provenance": {
+    "primal": {
+      "job_id": "1640",
+      "source_manifest": "SOURCE_MANIFEST_v38.json",
+      "completion_sha256": "a20ea30726da4355da2bfef9d53b8f99387fe1df3f4dcd59d7f0b7521c62ff53"
+    },
+    "adjoint": {
+      "job_id": "1645",
+      "source_manifest": "SOURCE_MANIFEST_v40.json",
+      "completion_sha256": "c6eeb9bb22f2608c557437a1c6a86fbd153c4419f2b5ef17566294076724351d"
+    },
+    "correction": {
+      "job_id": "1628",
+      "source_manifest": "SOURCE_MANIFEST_v33.json",
+      "completion_sha256": "d7e949c3a689bf55ea5f99c26db3370e249e05e1a3716c66cf35e31163a20481"
+    },
+    "adjoint_points": {
+      "job_id": "1642",
+      "source_manifest": "SOURCE_MANIFEST_v39.json",
+      "completion_sha256": "ec73d8c43ae8a9ed55f3b190e3b0a6ac43aef38178d670dad48c22578159de0f"
+    },
+    "cases": {
+      "job_id": "1629",
+      "source_manifest": "SOURCE_MANIFEST_v34.json",
+      "completion_sha256": "e36defff4a1be76f116019faa7f275cebec9fe1c9d27f51e190dde913a6e32bb"
+    },
+    "time_factorization": {
+      "job_id": "1624",
+      "source_manifest": "SOURCE_MANIFEST_v32.json",
+      "completion_sha256": "1aa2d3e0fdbfef154dc4a7e233659901dd90ab0db5ec0e6952105bbba6abced9"
+    },
+    "growth": {
+      "job_id": "1583",
+      "source_manifest": "SOURCE_MANIFEST_v2.json",
+      "completion_sha256": "8ea7825ca008cadeeaa7b54cdeecb93a2e176871881bcf184b9e5c9359e76339"
+    },
+    "nonlinear_strain": {
+      "job_id": "1608",
+      "source_manifest": "SOURCE_MANIFEST_v17.json",
+      "completion_sha256": "efa3f3450e661139eddad9cc332ecbe8d0a74ad1206e924e4a98cbd1d716b837"
+    }
+  },
+  "independent_spatial_mode_audits": [
+    {
+      "modes": 7140,
+      "flux_modes": 2048,
+      "mode_square_sum_hex": [
+        "7fbbbb6df45ce52a6579408037cf52a416ba82bffd43a1220959",
+        "40000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 2048,
+      "mode_square_sum_hex": [
+        "ea19e1d3cd6cda985b0a6eb924c77a3d3f1ea103368b7f5591",
+        "400000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 1024,
+      "mode_square_sum_hex": [
+        "cd20ea28d0f89f2bfc97397787725e84a7d6d3b73e18dabcc4b69",
+        "40000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 1024,
+      "mode_square_sum_hex": [
+        "1f742e9a095942f8307da4843f67a60f3dce1cb9d002b9560c43",
+        "4000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 1024,
+      "mode_square_sum_hex": [
+        "3e6d3ced71ea99eff2e005ae6b4835da014116b73a86d54cb77e1",
+        "100000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 512,
+      "mode_square_sum_hex": [
+        "c46363790855a7a3c4e1e40c1d34891cf62c7a84bd1259af40713",
+        "100000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 512,
+      "mode_square_sum_hex": [
+        "a3824d23c4ca3cb31194a96057baf6321eb4751ab5e3f6596a0da85",
+        "20000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 64,
+      "mode_square_sum_hex": [
+        "15c928800c9eaaf36a6810ecc2c730a3b68885c273d62e74e827215",
+        "2000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 64,
+      "mode_square_sum_hex": [
+        "45930ac8e8184c2a8f5a4ffc76730288124cfe1e9fb958d87c263b4b",
+        "100000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 64,
+      "mode_square_sum_hex": [
+        "5c36d23461271d40de1c3be8e6ad896883833e4d42de4bd6863b9",
+        "8000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 64,
+      "mode_square_sum_hex": [
+        "c35ef21a10176270a7ffc3f66fbd1e10d4a3d8da66b26e1b28770f",
+        "400000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 64,
+      "mode_square_sum_hex": [
+        "4b9b586f9f6b7c9cfdb60bffe9e98546b366b9601baa832d7e5e215",
+        "400000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 64,
+      "mode_square_sum_hex": [
+        "211bc88082edc328268d0b89eb3b7288d56d37337a85ee78da91c495",
+        "1000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 0,
+      "mode_square_sum_hex": [
+        "c534d12db461209c6341691629b192005e324c579a90bcc5f7f9811b9",
+        "800000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 0,
+      "mode_square_sum_hex": [
+        "3f28e55bfd02b96caf76e31740c6ee56c5301f5743b7c8f3510fbb659",
+        "1000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 0,
+      "mode_square_sum_hex": [
+        "28b43fc3ad4558b5150eac62c541ace5612ff16360863148362e1c6b",
+        "800000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "modes": 7140,
+      "flux_modes": 0,
+      "mode_square_sum_hex": [
+        "cf9679e0c984d2884c389527bbd97fee9e94bd75f1434c62500d01425",
+        "10000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    }
+  ],
+  "scope": "Tapered cylinder drag over T=1/2 for the specified relative-energy weak class of the finite-domain viscous sponge model, initialized exactly at candidate 976; existing normal-zero/natural-vorticity cylinder wall. No steady or long-time assertion.",
+  "arithmetic_assumptions": "Recorded IEEE outward elementary arithmetic, explicitly bounded classical GEMM/FFT arithmetic, and source-verified analytic enclosures; final scalar assembly is rational."
+}

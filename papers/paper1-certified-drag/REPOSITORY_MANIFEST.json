@@ -1,0 +1,104 @@
+{
+  "format": "repository-source-manifest-v1",
+  "status": "local_preparation_not_public_release",
+  "version": "1.0.0-draft",
+  "self_exclusion": "REPOSITORY_MANIFEST.json",
+  "files": {
+    ".gitignore": {
+      "bytes": 150,
+      "sha256": "a6f0dea36d4961e485054a16347db69bf72bbd2dc246ea148fc6743336d2093d"
+    },
+    "CITATION.cff": {
+      "bytes": 1161,
+      "sha256": "4ade6f180e88d51b1eff65a2c465a05819c37d0732bf00fa6c0dd5c789a12a73"
+    },
+    "LICENSING.md": {
+      "bytes": 850,
+      "sha256": "1659464dea401adef4cce118b50e233707b130217787151548fb15ab9f6b6eda"
+    },
+    "README.md": {
+      "bytes": 5189,
+      "sha256": "c250da11552024b8ac251a852c56bd8ee89f0a51c0be341fbaf72f1b1ef0851a"
+    },
+    "data/PROVENANCE.json": {
+      "bytes": 3672,
+      "sha256": "72b5eebfbd2ce680ef34372fec0986d67ff7808c040f6c7137d4b05969f6fe4c"
+    },
+    "data/archive-lock.json": {
+      "bytes": 1908,
+      "sha256": "023d7882da0d186b1385f839389731672930b02360f983469e1d29aee2a01b1c"
+    },
+    "docs/PREPARATION_CHECKS.md": {
+      "bytes": 1593,
+      "sha256": "2b52532bf4cb70ae349bc24c02de9c42711043c17600757c66e338ce3cd8c2ea"
+    },
+    "docs/RELEASE_NOTES.md": {
+      "bytes": 913,
+      "sha256": "a53e7cfe9e4c449623e9d2be9e631504e7c004d27b25c4a362af698cf9b0e7eb"
+    },
+    "docs/SCOPE.md": {
+      "bytes": 3491,
+      "sha256": "fab1d2798e14518f125d4ba909972812cba166afba554c893832c868cc135337"
+    },
+    "docs/VERIFICATION.md": {
+      "bytes": 3828,
+      "sha256": "656d26cadc69b114793cd4f918deaaee8e7db38fdb280e2c026e4380a4f52931"
+    },
+    "evidence/976_T0p5.json": {
+      "bytes": 8045,
+      "sha256": "7f5cddd86232444798a2a62a73a9bd362c5e124c3ff28df1bcb20eb19b98fc43"
+    },
+    "evidence/976_T0p6.json": {
+      "bytes": 12416,
+      "sha256": "064c8977a4c2d18f8e54351fa9dae80ad0abb7259a1636ee6f95e88c84356a69"
+    },
+    "evidence/976_T0p8.json": {
+      "bytes": 16285,
+      "sha256": "20d4b2811977713f74f7ee452c0311f3661019af7bbf352665d705fb3d639488"
+    },
+    "evidence/Newton_T0p5_A1.json": {
+      "bytes": 13463,
+      "sha256": "9f0266a5b5f5ba0a71ed0ef93df47977c8a8be10cc83128adb098724ec175e2b"
+    },
+    "evidence/Newton_T1p2.json": {
+      "bytes": 18809,
+      "sha256": "3581ab736dcc4cb490d840d864ff2ae1db23df073ceb218439bb80f398128204"
+    },
+    "evidence/Newton_T2_variational.json": {
+      "bytes": 11426,
+      "sha256": "97e24fa6e41af04bbf430db7a5ab30432f322ffc3e090787c7e8f1f412a9a651"
+    },
+    "figures/data/HORIZON_TABLE.csv": {
+      "bytes": 1037,
+      "sha256": "99469b2794211b093d8adba560d3de36da68473f5dd3870d6ab76d6010d7a653"
+    },
+    "figures/horizon_radius.png": {
+      "bytes": 67001,
+      "sha256": "82ddb3dfe6cfc42cb29a97e56cf724678f4356a5982807ecacbda830c6c90aea"
+    },
+    "figures/make_certificate_figures.py": {
+      "bytes": 7072,
+      "sha256": "632c4a84e08e9778aece82ed0bcefd03736a97624093ea67b3397e0c39cdcc5b"
+    },
+    "figures/radius_anatomy.png": {
+      "bytes": 53152,
+      "sha256": "168ddc44c00b49c126a9a571db9f10320f623249c0fbc6fbaa48a6f18374ee32"
+    },
+    "requirements-figures.txt": {
+      "bytes": 46,
+      "sha256": "ca42d0c06a7d8edab5098b31095c73980a8a2ef09b18abba2d094b98b94c2f8a"
+    },
+    "requirements-replay.txt": {
+      "bytes": 260,
+      "sha256": "3e8725182a74de6c8355b3cd5d704c8d22c13650c87921e07ad8fcd0fc4e5ea9"
+    },
+    "tests/test_verification_wrapper.py": {
+      "bytes": 6489,
+      "sha256": "918b2115759654cc954fd34d5d8bf0527833759dfce3fec909b937c68a72821a"
+    },
+    "tools/verify_bundle.py": {
+      "bytes": 11693,
+      "sha256": "714bbd24bbfe3ee1434930498c10297c843cf4e34532fdf951a7a8983a44de61"
+    }
+  }
+}

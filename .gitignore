@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+*.tar.gz
+*.zip
+build/
+downloads/
+extracted/
+reports/
+work/
+papers/*/figures/*.pdf
+papers/*/figures/data/certificate_budgets_T2_exact.json

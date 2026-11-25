@@ -1,0 +1,5 @@
+# Tested for scalar, geometry and physical-coordinate replays on macOS arm64.
+numpy==2.5.2
+mpmath==1.3.0
+# Optional six-load-cell replay additionally requires Linux x86-64-compatible
+# extended precision. Original CM1 versions are archived in each run record.

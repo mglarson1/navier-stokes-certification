@@ -1,0 +1,58 @@
+{
+  "format_version": 1,
+  "evidence_release": "T2_certificate_v1, frozen 2026-11-24; earlier archive frozen 2026-11-17",
+  "scope": "Exact existing submission files; additional publication metadata are outside this lock.",
+  "files": [
+    {
+      "name": "EARLIER_MANIFEST.json",
+      "bytes": 44989794,
+      "sha256": "571e32072927df0f617b77e957756c514edfd40849920f9bf2807df4bfb50035"
+    },
+    {
+      "name": "FINAL_VERIFICATION.json",
+      "bytes": 29949,
+      "sha256": "dcec43b3e38b3c030327c21efa85b492ec20b6c6c6bb7a59835b789272736d50"
+    },
+    {
+      "name": "README.txt",
+      "bytes": 3258,
+      "sha256": "c93830ce17514a0802ee2915543e1d5be07fc96610579df17b61a77f8526eab1"
+    },
+    {
+      "name": "T2_MANIFEST.json",
+      "bytes": 14350135,
+      "sha256": "0e110eb03f6b0cdc0ee5bbdd097fb6aa5b722a2de1ebac5ab4c1d64b3e325630"
+    },
+    {
+      "name": "T2_Verification_Guide.pdf",
+      "bytes": 344789,
+      "sha256": "97826d9cc307c94982f4566e54dfbc7d9baddf4eff208ef39dc732cec0726030"
+    },
+    {
+      "name": "T2_certificate_v1.tar.gz",
+      "bytes": 3575472381,
+      "sha256": "819c43718cf1d0881996baf92a69ae05014555aed855d0cb55b72ee8f04eea7f",
+      "root": "T2_certificate_v1",
+      "extracted_regular_files": 63707,
+      "extracted_bytes": 6834320956
+    },
+    {
+      "name": "VERIFICATION_SUMMARY.txt",
+      "bytes": 2199,
+      "sha256": "17453c74ac7c36cc03210a358398d3ffb2fdb084b5c6d185bb0bba214ed08e53"
+    },
+    {
+      "name": "earlier_certificates_2026-11-17.tar.gz",
+      "bytes": 1559932836,
+      "sha256": "ad017001ee5afc502b36e78fec9f2153ff7d66c8f6b7e185cdc947d746003fe9",
+      "root": "earlier_certificates_2026-11-17",
+      "extracted_regular_files": 65707,
+      "extracted_bytes": 2015761940
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 717,
+      "sha256": "8d4e9450ee1df7b0cb9934e85702531d95e2849fd30f449f9932501a2a8ae21c"
+    }
+  ]
+}
