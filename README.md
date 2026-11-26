@@ -8,8 +8,11 @@ in `shared/`; each paper has a self-contained companion under `papers/`, with
 its own authorship, assumptions, commands and data record. The large frozen
 evidence archives are distributed through per-paper archival deposits.
 
-**Current status:** repository setup. Public releases, licences and evidence
-DOIs have not yet been finalized. No DOI or publication date is implied here.
+**Paper 1 version 1.0.0:** licences and software snapshot prepared on
+26 November 2026 for tag `paper1-v1.0.0`. The evidence DOI is
+`10.5281/zenodo.24553449`; it was reserved when this snapshot was prepared.
+Consult the evidence record and repository release for public availability.
+See [licensing](LICENSING.md) for MIT software and CC BY 4.0 non-software scopes.
 
 ## Papers
 
@@ -33,11 +36,11 @@ docs/                           release and preservation policy
 tools/                          checks on the repository's paper snapshots
 ```
 
-Paper 1 initially preserves all 25 files of the tested standalone companion,
-including its own verification wrapper, requirements, exact records and figure
-code. Its existing commands work from within its folder. Common numerical
+Paper 1 preserves the tested verification wrapper, requirements, exact records
+and figure code. Version 1.0.0 adds final licence texts and citation metadata
+and updates the release instructions and source manifest. Its existing commands work from within its folder. Common numerical
 code will be extracted into `shared/` when another paper actually needs it;
-the current proof checks have not been refactored during repository setup.
+the current proof checks have not been refactored for this release.
 
 ## Start with Paper 1
 
@@ -53,7 +56,7 @@ For the complete seven-check evidence replay, follow that folder's
 [verification instructions](papers/paper1-certified-drag/docs/VERIFICATION.md)
 and [quick start](papers/paper1-certified-drag/README.md). The evidence archives
 are not included in Git. The prior preparation passed all seven checks on a
-fresh extraction; this repository import preserves the verified companion bytes.
+fresh extraction; this release preserves the verified executable and scientific-data bytes.
 
 ## Cite a fixed paper release
 

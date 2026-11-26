@@ -18,7 +18,9 @@ For each released paper, record:
 - licences and third-party terms for the material actually included.
 
 Before the first public release, complete those fields using real identifiers,
-confirm the licences and run a fresh download verification. Do not invent
+confirm the licences and verify a fresh extraction of the final source snapshot
+and local evidence files. After publication, repeat verification from a fresh
+public download. Do not invent
 identifiers, declare a draft public, or infer a complete production-arithmetic
 audit from file checks and selected replay stages.
 

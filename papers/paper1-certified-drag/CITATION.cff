@@ -1,8 +1,11 @@
 cff-version: 1.2.0
-message: "Draft citation metadata. At publication, cite the paper and the version-specific evidence DOI listed in the README."
+message: "Cite this fixed software version, the manuscript and its separate version-specific evidence record. The evidence DOI was reserved at snapshot preparation; see the record for publication status."
 type: software
 title: "Certified cylinder drag: verification companion"
-version: "1.0.0-draft"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/mglarson1/navier-stokes-certification"
+url: "https://github.com/mglarson1/navier-stokes-certification/tree/paper1-v1.0.0/papers/paper1-certified-drag"
 authors:
   - family-names: "Burman"
     given-names: "Erik"
@@ -16,7 +19,7 @@ keywords:
   - "a posteriori error estimation"
   - "goal functional"
   - "validated numerics"
-abstract: "Verification entry point and figure code for the frozen T = 2 drag certificate and earlier certificates. The full evidence is a separate companion data deposit under preparation."
+abstract: "Verification entry point and figure code for the frozen T = 2 drag certificate and earlier certificates. The full evidence is the separate companion dataset 10.5281/zenodo.24553449. Its DOI is reserved until publication; it does not identify this software as a separate DOI-bearing record."
 references:
   - type: unpublished
     title: "Certified drag for a three-dimensional Navier–Stokes wake and the horizon of energy-based certification"
@@ -26,3 +29,13 @@ references:
       - family-names: "Larson"
         given-names: "Mats G."
     year: 2026
+  - type: data
+    title: 'Certification data and verification code for "Certified drag for a three-dimensional Navier–Stokes wake and the horizon of energy-based certification"'
+    authors:
+      - family-names: "Burman"
+        given-names: "Erik"
+      - family-names: "Larson"
+        given-names: "Mats G."
+    doi: "10.5281/zenodo.24553449"
+    version: "1.0.0"
+    url: "https://zenodo.org/records/24553449"

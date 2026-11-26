@@ -1,6 +1,6 @@
 # Certified cylinder drag: verification companion
 
-**Publication preparation — not yet a public release.** Prepared 25 November 2026.
+**Version 1.0.0**, prepared 26 November 2026 for repository tag `paper1-v1.0.0`.
 
 Companion code and documentation for Erik Burman and Mats G. Larson,
 *Certified drag for a three-dimensional Navier–Stokes wake and the horizon of energy-based certification*.
@@ -29,8 +29,10 @@ This small repository contains a verification entry point, the exact certificate
 records used by two manuscript figures, their source code and diagnostic inputs,
 provenance, and instructions. It contains no large computational archives.
 
-The companion Zenodo deposit is being prepared. Its version-specific DOI and
-public file URL will be added after reservation and verification. It will contain:
+The version-specific evidence DOI is **10.5281/zenodo.24553449**. It was
+reserved when this snapshot was prepared and becomes registered on publication.
+The record URL is https://zenodo.org/records/24553449; check that record for
+public availability. Its frozen archives are:
 
 | File | Purpose | Bytes |
 |---|---|---:|
@@ -39,13 +41,15 @@ public file URL will be added after reservation and verification. It will contai
 
 The deposit also contains the standalone guide, manifests and reports. The exact
 nine original submission files are pinned in [archive-lock.json](data/archive-lock.json).
-The final deposit will include a snapshot of this repository, so the verification
-entry point can be obtained without relying on a live GitHub branch.
+The deposit includes `navier-stokes-certification-paper1-v1.0.0.zip`, a complete
+repository source snapshot, and `SOFTWARE_RELEASE.json`, which binds its
+SHA-256 hash to an exact Git commit and tag. The verification entry point can
+therefore be obtained without relying on a live GitHub branch.
 
 ## Verify a local copy
 
 Use Python 3.11 or later. The tested portable environment is Python 3.12.0,
-NumPy 2.5.2 and mpmath 1.3.0 on macOS arm64. From this repository:
+NumPy 2.5.2 and mpmath 1.3.0 on macOS arm64. From `papers/paper1-certified-drag` within the source snapshot:
 
 ```sh
 python3 -m venv .venv
@@ -74,8 +78,9 @@ production spatial interval computations. Do not use Python `-O` or set
 
 After the deposit is public, the same command accepts `--base-url` instead of
 `--source-dir` to download the nine pinned files from the record's HTTPS `/files`
-directory. No public download address exists yet. A fresh public download check
-remains part of the release process.
+directory. For this record, use `https://zenodo.org/records/24553449/files`
+**after publication**. A fresh public-download replay remains a post-publication
+check; it is not established by a successful local verification.
 
 ## Figures and lightweight checks
 
@@ -99,7 +104,9 @@ Read [verification details](docs/VERIFICATION.md), [data provenance](data/PROVEN
 ## Citation and authorship
 
 The authors are Erik Burman (University College London) and Mats G. Larson
-(Umeå University). [CITATION.cff](CITATION.cff) contains draft citation metadata.
-The final paper should cite the **specific version** of the Zenodo evidence
-record and identify the corresponding GitHub release. No DOI, journal acceptance,
-public release date or author ORCID has been invented in this preparation.
+(Umeå University). [CITATION.cff](CITATION.cff) identifies software version 1.0.0 and separately
+references the version-specific evidence DOI. The dataset DOI is not a separate
+software DOI. Cite the paper, this fixed software version and the evidence
+record once published. No journal acceptance, public release date or author
+ORCID is implied. Original software is MIT licensed; original data, figures
+and documentation are CC BY 4.0 licensed, as scoped in [LICENSING.md](LICENSING.md).

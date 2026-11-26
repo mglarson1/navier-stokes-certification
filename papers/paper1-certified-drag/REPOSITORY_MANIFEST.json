@@ -1,7 +1,7 @@
 {
   "format": "repository-source-manifest-v1",
-  "status": "local_preparation_not_public_release",
-  "version": "1.0.0-draft",
+  "status": "versioned_source_snapshot_prepared_for_publication",
+  "version": "1.0.0",
   "self_exclusion": "REPOSITORY_MANIFEST.json",
   "files": {
     ".gitignore": {
@@ -9,16 +9,16 @@
       "sha256": "a6f0dea36d4961e485054a16347db69bf72bbd2dc246ea148fc6743336d2093d"
     },
     "CITATION.cff": {
-      "bytes": 1161,
-      "sha256": "4ade6f180e88d51b1eff65a2c465a05819c37d0732bf00fa6c0dd5c789a12a73"
+      "bytes": 1963,
+      "sha256": "2dc5735ec3345549e928b798c9c1fdd103e46c2362d265fca0b36514058fe6d0"
     },
     "LICENSING.md": {
-      "bytes": 850,
-      "sha256": "1659464dea401adef4cce118b50e233707b130217787151548fb15ab9f6b6eda"
+      "bytes": 2339,
+      "sha256": "8ee2be485bcfb8b4daaad3ac7eb7ef061466acaed4c3dfa61ac335ecfd79d3d1"
     },
     "README.md": {
-      "bytes": 5189,
-      "sha256": "c250da11552024b8ac251a852c56bd8ee89f0a51c0be341fbaf72f1b1ef0851a"
+      "bytes": 5766,
+      "sha256": "d40add0221ec9b86a4b857605d67586873f9331380c7870a9997245bfc3e1bab"
     },
     "data/PROVENANCE.json": {
       "bytes": 3672,
@@ -33,8 +33,8 @@
       "sha256": "2b52532bf4cb70ae349bc24c02de9c42711043c17600757c66e338ce3cd8c2ea"
     },
     "docs/RELEASE_NOTES.md": {
-      "bytes": 913,
-      "sha256": "a53e7cfe9e4c449623e9d2be9e631504e7c004d27b25c4a362af698cf9b0e7eb"
+      "bytes": 1375,
+      "sha256": "54a27085895d7bf8a4b1318b1de08f1d0df127b306dc398f9352a8a0171bd166"
     },
     "docs/SCOPE.md": {
       "bytes": 3491,
@@ -99,6 +99,15 @@
     "tools/verify_bundle.py": {
       "bytes": 11693,
       "sha256": "714bbd24bbfe3ee1434930498c10297c843cf4e34532fdf951a7a8983a44de61"
+    },
+    "LICENSES/CC-BY-4.0.txt": {
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    "LICENSES/MIT.txt": {
+      "bytes": 1087,
+      "sha256": "47cdf649565468cf2776ce725471e73dbf106301076fe83814b9c2a8ec337a45"
     }
-  }
+  },
+  "prepared_on": "2026-11-26"
 }
